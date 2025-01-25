@@ -8,18 +8,15 @@ document.addEventListener('DOMContentLoaded', () => {
         const email = contactForm.querySelector('input[type="email"]').value;
         const message = contactForm.querySelector('textarea').value;
 
-        // Basic validation
         if (!name || !email || !message) {
-            alert('Please fill in all fields');
+            alert('Please complete all fields');
             return;
         }
 
-        // Simulated form submission (replace with actual backend logic)
-        alert(`Thank you, ${name}! Your message has been sent.`);
+        alert(`Thank you, ${name}! We'll review your inquiry.`);
         contactForm.reset();
     });
 
-    // Smooth scrolling for navigation
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();

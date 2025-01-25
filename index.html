@@ -4,85 +4,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional E-Learning Portfolio</title>
+    <title>Professional Learning Hub</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <h1>Professional E-Learning</h1>
-            </div>
-            <ul>
-                <li><a href="#courses">Courses</a></li>
-                <li><a href="#credentials">Credentials</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="container">
+        <header>
+            <div class="logo">Professional Learning Hub</div>
+            <nav>
+                <a href="#courses">Courses</a>
+                <a href="#skills">Skills</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
 
-    <main>
-        <section id="hero">
-            <h2>Transform Your Skills with Expert-Led Online Courses</h2>
-            <p>Professional learning experiences designed to elevate your career</p>
-            <a href="#courses" class="cta-button">Explore Courses</a>
-        </section>
+        <main>
+            <section id="hero">
+                <h1>Transform Your Career Through Expert Online Learning</h1>
+                <p>Comprehensive digital courses designed to elevate your professional skills</p>
+                <a href="#courses" class="cta-button">Explore Learning Paths</a>
+            </section>
 
-        <section id="courses">
-            <h2>Featured Courses</h2>
-            <div class="course-grid">
-                <div class="course-card">
-                    <img src="course1.jpg" alt="Course 1">
-                    <h3>Web Development Masterclass</h3>
-                    <p>Complete modern web development from scratch</p>
-                    <a href="#" class="enroll-button">Enroll Now</a>
+            <section id="courses">
+                <h2>Featured Learning Tracks</h2>
+                <div class="course-grid">
+                    <div class="course-card">
+                        <h3>Web Development Mastery</h3>
+                        <p>Complete modern web technologies curriculum</p>
+                        <ul>
+                            <li>HTML5 & CSS3</li>
+                            <li>JavaScript Frameworks</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                        <a href="#" class="enroll-button">Enroll Now</a>
+                    </div>
+                    <div class="course-card">
+                        <h3>Data Science Essentials</h3>
+                        <p>Comprehensive data analysis and machine learning</p>
+                        <ul>
+                            <li>Python Programming</li>
+                            <li>Statistical Analysis</li>
+                            <li>Machine Learning Basics</li>
+                        </ul>
+                        <a href="#" class="enroll-button">Enroll Now</a>
+                    </div>
+                    <div class="course-card">
+                        <h3>Cloud Computing Professional</h3>
+                        <p>Advanced cloud infrastructure and deployment</p>
+                        <ul>
+                            <li>AWS Fundamentals</li>
+                            <li>Azure Certification Prep</li>
+                            <li>Kubernetes Deployment</li>
+                        </ul>
+                        <a href="#" class="enroll-button">Enroll Now</a>
+                    </div>
                 </div>
-                <div class="course-card">
-                    <img src="course2.jpg" alt="Course 2">
-                    <h3>Data Science Fundamentals</h3>
-                    <p>Learn Python, Machine Learning, and Data Analysis</p>
-                    <a href="#" class="enroll-button">Enroll Now</a>
-                </div>
-                <div class="course-card">
-                    <img src="course3.jpg" alt="Course 3">
-                    <h3>Cloud Computing Essentials</h3>
-                    <p>Master AWS, Azure, and Cloud Infrastructure</p>
-                    <a href="#" class="enroll-button">Enroll Now</a>
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <section id="credentials">
-            <h2>Professional Credentials</h2>
-            <div class="credential-list">
-                <div class="credential-item">
-                    <img src="cert1.png" alt="Certification 1">
-                    <h3>AWS Certified Developer</h3>
+            <section id="skills">
+                <h2>Skill Certification Paths</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <h3>Web Development</h3>
+                        <p>Frontend and Backend Specialization</p>
+                    </div>
+                    <div class="skill-item">
+                        <h3>Data Science</h3>
+                        <p>Advanced Analytics Certification</p>
+                    </div>
+                    <div class="skill-item">
+                        <h3>Cloud Engineering</h3>
+                        <p>Multi-Platform Cloud Expertise</p>
+                    </div>
                 </div>
-                <div class="credential-item">
-                    <img src="cert2.png" alt="Certification 2">
-                    <h3>Google Cloud Professional</h3>
-                </div>
-            </div>
-        </section>
+            </section>
 
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <form id="contact-form">
-                <input type="text" placeholder="Name" required>
-                <input type="email" placeholder="Email" required>
-                <textarea placeholder="Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
-    </main>
+            <section id="contact">
+                <h2>Connect With Us</h2>
+                <form id="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <textarea placeholder="Your Learning Goals" required></textarea>
+                    <button type="submit">Send Inquiry</button>
+                </form>
+            </section>
+        </main>
 
-    <footer>
-        <p>&copy; 2024 Professional E-Learning. All Rights Reserved.</p>
-    </footer>
-
+        <footer>
+            <p>© 2024 Professional Learning Hub. All Rights Reserved.</p>
+        </footer>
+    </div>
     <script src="script.js"></script>
 </body>
 
